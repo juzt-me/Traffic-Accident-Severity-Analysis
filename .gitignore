@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Kaggle credentials and local environment variables
+kaggle.json
+.env
+.env.*
+!.env.example
+
+# Large raw datasets and generated samples
+data/*.csv
+data/*.zip
+data/sample_metadata.json
+!data/README.md
+!data/.gitkeep
+
+# Generated model artifacts
+models/*.joblib
+models/*.json
+!models/.gitkeep
+
+# Generated outputs
+outputs/plots/*.png
+outputs/reports/*.csv
+outputs/reports/*.txt
+outputs/reports/*.json
+!outputs/plots/.gitkeep
+!outputs/reports/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
